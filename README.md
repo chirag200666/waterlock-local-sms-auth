@@ -2,7 +2,7 @@
 local authentication using phone &amp; code for waterlock
 
 waterlock-local-sms-auth is a module for [waterlock](http://waterlock.ninja/)
-providing a local authentication method for users either based on phone number and sms code.
+providing a local authentication method for users based on phone number and sms code.
 Its a adaptation of waterlock-local-auth code but for inputs for authenticaltion.
 Also serves as a sample code for somebody who wants to modify waterlock-local-auth.
 
