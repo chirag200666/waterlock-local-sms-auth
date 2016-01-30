@@ -62,8 +62,8 @@ if you choose to go with this option then a user upon visiting the url `/auth/re
 Your user can simply try to login to `/login` if the user is not found one will be created using [waterlines](https://github.com/balderdashy/waterline) `findOrCreate` method
 
 TODOs:
-Improve documentation & remove username, email & passwordReset from places its not required.
-Autogenerate a new sms code when a phone number is received.
-Add twillio or some sms api to send sms.
-Check the resetToken using the old token.
-write test cases(fix) for the code.
+* Improve documentation & remove username, email & passwordReset from places its not required.
+* Autogenerate a new sms code when a phone number is received.
+* Add twillio or some sms api to send sms.
+* Check the resetToken using the old token.
+* write test cases(fix) for the code.
