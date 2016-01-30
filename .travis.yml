@@ -1,0 +1,26 @@
+language: node_js
+
+env:
+  - CXX=g++-4.8 COVERAGE=true
+
+node_js:
+  - "0.10"
+  - "0.12"
+  - "4.0"
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+
+sudo: false
+
+script: make test
+
+branches:
+  only:
+    - master
+
+

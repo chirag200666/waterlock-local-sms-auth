@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "waterlock-local-sms-auth"
+    ]
+  ],
+  "_from": "waterlock-local-sms-auth@latest",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/waterlock-local-sms-auth",
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "waterlock-local-sms-auth",
+    "raw": "waterlock-local-sms-auth",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shrinkwrap": null,
+  "_spec": "waterlock-local-auth",
+  "author": {
+    "email": "chirag200666@gmail.com",
+    "name": "Chirag Choudhary"
+  },
+  "dependencies": {
+    "bcrypt": "~0.8.5",
+    "jade": "~1.11.0",
+    "jwt-simple": "~0.3.0",
+    "lodash": "~3.10.0",
+    "moment": "~2.10.6",
+    "node-uuid": "~1.4.2",
+    "nodemailer": "1.4.0"
+  },
+  "description": "local authentication using phone & code for waterlock",
+  "devDependencies": {
+    "coveralls": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "proxyquire": "*",
+    "should": "*"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "keywords": [
+    "authentication",
+    "local",
+    "sms",
+    "sails",
+    "waterlock"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+
+  "name": "waterlock-local-sms-auth",
+  "optionalDependencies": {},
+  "preferGlobal": false,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "0.1.0"
+}
